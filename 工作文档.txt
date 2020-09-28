@@ -1,0 +1,220 @@
+登天难，求人更难。黄连苦，无钱更苦。江湖险，人心更险。春冰薄，人情更薄。
+打卡美丽小乡村，赏尽婺源美景，带你坠入一场世外桃源的梦
+阿里云或foxmail邮箱 guojin.liu@huayuan-iot.com
+密码: Huayuan2019
+工号:1045
+蒲公英账号：18033092646，密码huayuan666
+虚拟机 liugj liugj-root liugj qq8257882
+\\Hyiot-rd\研发部共享资料\基础培训
+
+
+一行代码为所欲为：document.body.contentEditable="true"
+
+
+http://127.0.0.1/datacenter/register
+
+1.开机 需要在cmd 执行 mongod 执行服务
+2.需要进入E:\platform\nginx-1.15.9  目录 执行 nginx 跑反向代理才能执行 127.0.0.1/auth   已用pm2 启动
+3.需要进入 platform 目录 执行pm2 start pm2.json
+4.进入 项目 执行 node index.js  通过127.0.0.1/项目名称访问
+
+["修改无法查询告警通知记录的bug@murray"]
+"keywords":"告警通知记录,邮件,通知状态",
+"reporting.records.notification"
+
+clc.foundation.angular  src  models  common  project.coffee
+
+yarn install              uninstall 
+locomotive 文档结构
+
+ipconfig
+
+npm install 
+
+www.mdnvip.com
+
+深圳市南山区桃源街道学苑大道精英公寓C303 15820171586
+
+
+npm 公司服务器 npm config set registry http://clcdata.com:4873
+npm config get registry
+@import "./../../../../../platform/node_modules/clc.share/lib/clc.foundation.angular/src/styles/loading"
+@import "./../../../../../platform/node_modules/clc.share/lib/clc.foundation.angular/src/styles/base"
+
+@import "module"
+
+用户名hyiot，账号hyvip
+
+npm i @yk000/watch-myapp
+
+https://www.shiguangkey.com/video/1616?classId=3422&videoId=26306
+
+三目
+cloneObj = if isArray then [] else {}
+
+docker restart nginx
+
+
+项目部署
+1 找杨总给你的项目分配端口 
+2.npm adduser    
+3.在项目根目录下执行clc-deploy把项目发布到公司clcdata.com:4873上          
+3进到jenkins打包自己的项目http://docker.huayuan-iot.com:8888 用户名密码为gaullow/sunmoon
+------lab 更新------
+账号：root 
+密码：Clcdata8803
+root/gaullow/sh
+
+-----------vsc编译项目--------------
+npm i @yk000/watch-myapp -g
+yk-cli
+E:\projects\clc.predict\app
+n
+filter = "{\"type\":\"#{type}\"}"
+维保信息分组：maintain
+"0.0.7": ["高速电缆在地图显示站点的时候同时显示设备,由于从0.0.5到0.0.6是适配西宝高速项目的，当前版本是从0.0.4基础上进行开发的---murray"]
+--------ngl---------
+itjc8.com)ZLyq5yjXEI2WGVOY
+
+ng g m Home --routing  生成模块
+ng g c shared/components/footer  生成组件
+
+https://www.getpostman.com/
+
+ng build --prod --aot --build-optimizer
+ng build --prod
+ng build --prod --aot --build-optimizer --vendor-chunk  把类库单独打成一个js包
+可以把命令放到package.json下 执行 npm run build
+ng new xxx --enable-ivy
+ionic g page page/NewPage
+
+
+-----------nginx----------
+重启nginx
+pm2 restart 10（id号）
+pm2 delete 10
+pm2 运行升级服务
+id = `pm2 ls|grep clc.datacenter|awk '{print $2}'`   获取指定进程的ID
+cd /root/huayuan/node_modules/clc.datacenter
+pm2 start index.js --name clc.datacenter -f  重启另一个进程
+pm2 delete ${id} 删除之前获取的ID
+
+date: "yyyy-MM-dd HH:mm:ss"
+-------------------------------------------------项目部署------------------------------------------------
+1.找杨总给你的项目分配端口     
+3.npm adduser 注册npm 账号
+2.在项目根目录下执行clc-deploy把项目发布到公司clcdata.com:4873上          
+3.进到jenkins打包自己的项目http://docker.huayuan-iot.com:8888 用户名密码为gaullow/sunmoon
+
+-------------------------------------------git 操作指令-----------------------------------------------------
+复制项目：git clone 项目http链接
+创建本地分支：git branch 分支名
+切换到新分支：git checkout 分支名
+将新分支push到github: git push origin 分支名
+切换回来原分支
+强制删除本地分支：git branch -D 分支名称
+删除远程分支：git push origin --delete 分支名称
+
+拉取某个分支的代码：git pull origin 分支名（可用来解决冲突）
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+如果希望保留生产服务器上所做的改动,仅仅并入新配置项, 处理方法如下:（可以用来解决同分支下的冲突）
+git stash
+git pull
+git stash pop
+
+
+git 提交代码步骤。
+进入项目打开 git Bash
+git pull
+git add .
+后打开git gui 找到自己的代码，去掉yarn.lock (Unstaged Changes 为待提交)
+在 Commit Message 下写 Murray --- 加修改的记录 如（murray---create componet user--role）
+后点击Commit，在点Push
+
+---------------------------------------------网关替换文件步骤------------------------------------------------
+网关替换文件步骤
+tar -zcvf pages.tar.gz pages/   1.先压缩本地代码文件为tar
+使用tftpd                                 2.使用tftpd 按browse 找到刚压缩的文件
+telnet 192.168.1.40                  3.通过网关ip，进入网关 账号密码 root
+cd /usrfs/app/aggregation/     4.进入网关后，cd 到要替换的文件夹下
+rm pages.tar.gz                       5.删除之前的压缩文件
+rm -rf pages/	               6.删除之前解压的文件夹
+tftp -g -r pages.tar.gz 192.168.1.99    7.用tftp命令 和本地ip 上传压缩文件到网关
+tar -zxvf pages.tar.gz	8. 上传成功后解压
+
+
+-----------------------------------------app------------------------------------------------------------------
+basic 分支
+ionic/src/controllers/platform-controller.coffee
+@platform = [{ "ip": "127.0.0.1", "name": "实验平台", "token": "dd0e5800-3b09-11e9-a80b-255cc9995573" }]
+
+npm install --global windows-build-tools         编译其他语言的组件
+npm install -g gulp  监听coffee  jab等文件的变化    运行   gulp调用脚本
+gulpfile.js 是监听变化的脚本
+
+在APP显示项目需要在model平台上项目-配置在分组加上supplier，在关键字加上app
+
+报错：multiple values 'http://localhost:8100, *', but only one is allowed.
+需要在  ionic下 app.coffee文件下 把 ioUrl = setting.ioUrl 改为ioUrl = "/"  需注意是否编译在www目录下  发布需要改回来
+需要在ionic.config.json 下修改proxyUrl 为对应的ip 如本地 就是 127.0.0.1  -----利用代理解决跨域问题
+
+ionic cordova build android --prod
+
+
+---------------------------------------------bus发布订阅信号及白名单配置--------------------------------------
+1.设置采集单元su绑定的值
+2.设置告警事件绑定的信号值
+bus发布订阅信号（模拟告警）
+发布：ssv/su/信号ID （su：设备采集单元su的绑定值，信号id: 事件绑定的信号值，看采集值下{su}/后面的id ）
+如:ssv/(21012B1100293/kmtc)括号为su/current(信号id)
+步骤：1.找到要模拟的设备，在采集单元上 把su的绑定值复制
+          2.去到设备对应的设备模板，进入信号测点找到要模拟的信号ID，可以看变量名下的采集值
+          3.打开bus模拟平台，在发布主题栏输入ssv/su/信号id  （su和信号id为实际项目的值）
+          4.在输入信号栏输入要发布的值
+          5.圆圈选择输入值
+          6.点击发布
+订阅：signal-values/admin（user）/sf-rfid（project）/lilang（站点ID）/设备ID/信号ID
+如：signal-values/admin/huaxin/yangxin/head-main-motor/current
+注意：1.模板信号，需要在设备的采集单元配置su
+          2.配置白名单
+白名单配置
+打开文件
+platfprm\node_modules\clc.monitoring\index-setting.json
+找到
+“whiteList:[
+	{"user":"admin","project":"dashboard"}
+]
+
+signal-statistics  订阅统计值  如果要1分钟转一次需要配monitoring
+----------------------2500应用部署---------------------------
+1.进入到huayuan目录下，先rm package-lock.json，执行npm install 项目，把项目下载
+2.pm2 ls 把 pm2 的应用记录删除  pm2 delete 
+3.运行 pm2 start pm2.json
+
+
+通知配置 发短信和邮件
+1.模拟产生告警
+2.command-values/admin/datacenter/computer-room/_msg/SMS-comand  在notification 规则消息标题看
+3.command/9H4Z001C00014/msg/SendMsg    command/su/短信的信息测点
+
+
+vi  :wq
+
+
+df -h 看硬盘内存大小
+du -sh * 看某个目录下的文件大小
+rm -f *  删除某个目录下的所有文件
+
+
+@commonService.reportingService.queryRecords  在下面链接能看
+http://gitlab.huayuan-iot.com/pu/clc.foundation.angular/blob/master/src/services/reporting-service.coffee
+
+
+cd /root/huayuan/node_modules/clc.datacenter
+pm2 delete clc.datacenter
+pm2 start index.js --name clc.datacenter——
+vip视频解释
+http://tool.onlychen.cn/video/

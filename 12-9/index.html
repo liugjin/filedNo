@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img.title{
+            display: block;
+            margin: 100px auto 0px;
+            width: 280px;
+            height: 130px;
+        }
+        .show{
+            width: 625px;
+            height: 35px;
+            margin: 20px auto 0px;
+            position: relative;
+        }
+        #text{
+            width: 500px;
+            height: 35px;
+            text-indent: 10px;
+            line-height: 35px;
+            float: left;
+        }
+        .but{
+            width: 110px;
+            height: 39px;
+            background: #3399FF;
+            color: #fff;
+            line-height: 39px;
+            text-align: center;
+            cursor: pointer;
+            float: left;
+        }
+        .but:hover{
+            background: #3366FF;
+        }
+        #search{
+            width: 502px;
+            border: 1px solid #ddd;
+            position: absolute;
+            top: 37px;
+            border-top: none;
+            /* display: none; */
+        }
+        #search ul li{
+            list-style-type: none;
+            width: 502px;
+            height: 30px;
+            text-indent: 10px;
+            line-height: 30px;
+            font-family: "微软雅黑";
+        }
+        #search ul li a{
+            color: #000;
+            text-decoration: none;
+            display: block;
+        }
+        #search ul li a:hover{
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <img src="./images/1.png" class="title">
+    <div class="show">
+        <input type="text" id="text">
+        <div class="but">百度一下</div>
+        <div id="search">
+            <ul>
+                <li>奥林控股</li>
+                <li>奥林控股</li>
+                <li>奥林控股</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

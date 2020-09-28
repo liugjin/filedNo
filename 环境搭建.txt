@@ -1,0 +1,9 @@
+jdk安装   https://blog.csdn.net/qq_42815754/article/details/82968464
+yum一键安装
+yum -y list java*
+yum install -y java-1.8.0-openjdk-devel.x86_64
+java -version
+你如果好奇这个自动安装把jdk安装到哪里去了，其实你可以在usr/lib/jvm下找到它们
+
+
+vim 安装   https://www.cnblogs.com/renyuanwei/p/9578705.html
